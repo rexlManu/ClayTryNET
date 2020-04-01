@@ -1,0 +1,4 @@
+main: net.claytry.clayapi.bungeecord.BungeeClayAPI
+version: 1.0
+name: ClayAPI
+author: rexlManu

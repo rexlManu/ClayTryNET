@@ -1,0 +1,153 @@
+# Landlord Created by Jcdesimp
+# ##### DEFAULT CONFIG #####
+# General options
+# options:
+#    #Enable sound effects when interacting with owned land.
+#    soundEffects: true
+#    #Enable particle effects for land interaction
+#    particleEffects: true
+#    #Enable the land map (/landlord map)
+#    #Can sometimes be resource intensive if a lot of players have it open.
+#    enableMap: true
+#    #Regenerate a chunk when it is unclaimed (Removes all builds and changes)
+#    regenOnUnclaim: false
+#    #Show entey/exit messages when players enter/leave owned land.
+#    showLandAlerts: true
+#    #File inside the "messages" folder to use as souce for all messages displayed to players.
+#    messagesFile: "english.yml"
+# Limits on amount of owned land
+# limits:
+#    #Max land a regular player can own (-1 for no limit).
+#    landLimit: 10
+#    #Extra land that players with "landlord.limit.extra","landlord.limit.extra2", etc. can own (Gets added to landLimit).
+#    extra: 10
+#    extra2: 20
+#    extra3: 30
+#    extra4: 40
+#    extra5: 50
+# Economy settings (Requires Vault)
+# economy:
+#    #Enable economy integration features
+#    enable: false
+#    #Amount of free land a player can own before being charged
+#    freeLand: 0
+#    #Cost of claiming land
+#    buyPrice: 100
+#    #Money given to player when unclaiming land
+#    sellPrice: 50
+# Worldguard Options (Requires Worldguard)
+# worldguard:
+#    #Prevent players from claiming chunks that intersect with worldguard regions,
+#    #UNLESS they have build permissions within that region.
+#    blockRegionClaim: true
+# Here you can enable/disable the built-in land flags.
+# enabled-flags:
+#    build: true
+#    harmAnimals: true
+#    openDoor: true
+#    tntDamage: true
+#    useContainers: true
+#    useRedstone: true
+#    pvp: true
+# Here you can disable worlds where player should not claim/unclaim
+# disabled-worlds:
+# - world_nether
+# - world_the_end
+# #### CONFIGURE OPTIONS BELOW ####
+
+options:
+  soundEffects: true
+  particleEffects: true
+  enableMap: true
+  regenOnUnclaim: false
+  showLandAlerts: true
+  messagesFile: "english.yml"
+limits:
+  landLimit: 10
+  extra: 10
+  extra2: 20
+  extra3: 30
+  extra4: 40
+  extra5: 50
+economy:
+  enable: false
+  freeLand: 0
+  buyPrice: 100
+  sellPrice: 50
+worldguard:
+  blockRegionClaim: true
+enabled-flags:
+  build: true
+  harmAnimals: true
+  openDoor: true
+  tntDamage: true
+  useContainers: true
+  useRedstone: true
+  pvp: true
+disabled-worlds:
+- world_nether
+- world_the_end
+Messages:
+  NoPlayer: 'You must to be a player!'
+  NoPermissions: '&cYou don''t have permissions!'
+  TeleportedToHome: '&bYou''ve been teleported to home'
+  TeleportedToWarp: '&bYou''ve been teleported to warp'
+  TeleportedToSpawn: '&eYou''ve been teleported to spawn!'
+  MagicWatchToggle: '&bMagic watches has been toggled!'
+  SetHomeFirst: '&aSet home first using /sethome name'
+  SetWarpFirst: '&aSet warp first using /setwarp name'
+  NoHomeWithName: '&cYou don''t have home with name'
+  HomeRemoved: '&bHome has been removed!'
+  ToRemoveHome: '&cTo remove home use /removehome name'
+  WarpRemoved: '&bWarp has been removed!'
+  ToRemoveWarp: '&cTo remove warp use /removewarp name'
+  NoWarpWithName: '&cYou don''t have warp with name'
+  HomeCreated: '&bHome has been created!'
+  NoMoreHomes: '&cYou can''t create more homes!'
+  ToSetHome: '&cTo set home use /sethome name'
+  SpawnCreated: '&bSpawn location has been created!'
+  WarpCreated: '&bWarp has been created!'
+  ToSetWarp: '&cTo set warp use /setwarp name'
+  SetSpawnFirst: '&eSet spawn location first!'
+  CloseMenu: '&cClose menu'
+  Homes: '&eHomes'
+  Warps: '&eWarps'
+  ToggleMagicWatch: '&cMagic Watch toggled!'
+  Spawn: '&eSpawn'
+  Menu: '&fMenu'
+  Icons: '&fIcons'
+  MagicWatchName: '&cMagic Watch'
+
+Sounds:
+  NoPermissionsSound: 'BLAZE_DEATH'
+  SetSpawnFirstSound: 'ZOMBIE_INFECT'
+  SetWarpFirstSound: 'ZOMBIE_INFECT'
+  SetHomeFirstSound: 'ZOMBIE_INFECT'
+  ClickSound: 'CLICK'
+  TeleportedToHomeSound: 'ENDERMAN_TELEPORT'
+  TeleportedToWarpSound: 'ENDERMAN_TELEPORT'
+  TeleportedToSpawnSound: 'LEVEL_UP'
+  MagicWatchToggleSound: 'BAT_TAKEOFF'
+  MenuOpenSound: 'DOOR_OPEN'
+  MenuCloseSound: 'DOOR_CLOSE'
+  NoHomeWithNameSound: 'CREEPER_DEATH'
+  NoWarpWithNameSound: 'CREEPER_DEATH'
+  ToRemoveHomeSound: 'CREEPER_DEATH'
+  ToRemoveWarpSound: 'CREEPER_DEATH'
+  ToSetHomeSound: 'ZOMBIE_INFECT'
+  ToSetWarpSound: 'ZOMBIE_INFECT'
+  HomeCreatedSound: 'WITHER_SPAWN'
+  WarpCreatedSound: 'WITHER_SPAWN'
+  NoMoreHomesSound: 'BLAZE_DEATH'
+  SpawnCreatedSound: 'WITHER_SPAWN'
+
+Icons:
+  MagicWatch: 'WATCH'
+  Warps: 'SIGN'
+  Homes: 'DARK_OAK_DOOR_ITEM'
+  Spawn: 'ARMOR_STAND'
+  ToggleWatchOn: 'WATCH'
+  ToggleWatchOff: 'PAPER'
+  HomeIcon: 'BED'
+  NoPermissions: 'BARRIER'
+  CloseMenu: 'REDSTONE_BLOCK'

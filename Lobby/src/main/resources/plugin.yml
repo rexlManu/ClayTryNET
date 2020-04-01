@@ -1,0 +1,5 @@
+name: Lobby
+version: ${project.version}
+main: net.claytry.lobby.Lobby
+commands:
+  setspawn:

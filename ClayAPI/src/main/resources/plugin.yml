@@ -1,0 +1,4 @@
+main: net.claytry.clayapi.bukkit.BukkitClayAPI
+version: 1.0
+name: ClayAPI
+author: rexlManu
